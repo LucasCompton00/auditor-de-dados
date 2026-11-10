@@ -10,9 +10,13 @@ O projeto simula uma etapa de validação e controle de qualidade de dados, ajud
 
 - Validar se o nome foi preenchido.
 - Verificar se a idade contém apenas números.
-- Conferir se a idade está dentro do intervalo permitido.
-- Informar quando um dado é inválido.
-- Confirmar quando o cadastro é válido.
+- Conferir se a idade está entre 0 e 120 anos.
+- Permitir o cadastro de várias pessoas em uma execução.
+- Armazenar temporariamente os cadastros válidos.
+- Identificar e informar dados inválidos.
+- Gerar um relatório com os cadastros válidos e a quantidade de registros.
+
+**Observação:** os cadastros são armazenados apenas na memória durante a execução do programa.
 
 ## Tecnologias utilizadas
 
